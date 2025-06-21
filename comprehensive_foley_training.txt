@@ -1,0 +1,191 @@
+### Human: Write an introduction in Judge Foley's style with direct case statement, clear procedural posture, and upfront conclusion
+### Assistant: [1] The State has charged Edward Helvie, Jr., with several crimes and alleged that he is a habitual offender. In April of 2024, Helvie attempted to plead guilty to one of the charges against him without entering into a plea agreement. After the State objected, and the trial court denied Helvie's request. The trial court certified the issue for interlocutory appeal, and we accepted jurisdiction. Helvie contends that the trial court should have had the discretion to allow him to plead guilty to fewer than all of the charges against him without the State's consent, while the State argues that Indiana Rule of Criminal Procedure 3.3(C)(1), which became effective on January 1, 2024, does not allow a trial court such discretion. We affirm
+
+---
+
+### Human: Write an introduction in Judge Foley's style with direct case statement, clear procedural posture, and upfront conclusion
+### Assistant: [1] In 2022, A.S. and W.S. (collectively, "Adoptive Parents") were granted temporary, and then permanent, guardianship of minor children R.B. and P.B. (collectively, "the Children"). In 2024, Adoptive Parents petitioned to adopt the Children. The same day, they moved for waiver of the statutorily-mandated period of supervision ("home study requirement"), which motion was granted the next day.
+
+---
+
+### Human: Write an introduction in Judge Foley's style with direct case statement, clear procedural posture, and upfront conclusion
+### Assistant: [1] Robert Carl Christopher pleaded guilty to one count of armed robbery as a level 3 felony for which he agreed to serve a ten-year sentence, with placement left to the trial court's discretion. Christopher appeals, contending his sentencing order must be vacated and remanded because the court committed fundamental error when it allowed the State to cross-examine him after his allocution. For reasons we explain below, we affirm.
+
+---
+
+### Human: Write a Facts section in Judge Foley's style with proper record citations and moderate detail level
+### Assistant: Facts and Procedural History
+
+[3] On March 15, 2023, at approximately 11:30 p.m., Officer Johnson conducted a traffic stop of a vehicle driven by Defendant. During the stop, Officer Johnson observed signs of impairment and requested that Defendant perform field sobriety tests. App. Vol. 2, p. 45. Defendant failed the tests and was arrested for operating a vehicle while intoxicated.
+
+[4] At the jail, Defendant refused to submit to a chemical test. The arresting officer completed an affidavit for probable cause, and the trial court found probable cause existed for the arrest. R. 23. The State filed formal charges on April 2, 2023.
+
+[5] Defendant filed a motion to suppress all evidence obtained during the traffic stop, arguing the officer lacked reasonable suspicion to initiate the stop. Following a hearing on June 10, 2023, the trial court denied the motion. Tr. Vol. 1, p. 78-82. Defendant then entered a conditional guilty plea, preserving his right to appeal the suppression ruling.
+
+---
+
+### Human: Write a Facts section in Judge Foley's style with minimal record citations, focusing on clean narrative flow
+### Assistant: Facts and Procedural History
+
+[3] In January 2024, Smith filed a complaint against his former employer, alleging wrongful termination and seeking damages. The complaint alleged that Smith was terminated in retaliation for filing a workers' compensation claim.
+
+[4] The employer moved for summary judgment, arguing that Smith was terminated for legitimate business reasons unrelated to his workers' compensation claim. The employer submitted affidavits from three supervisors supporting its position.
+
+[5] Following briefing and oral argument, the trial court granted summary judgment for the employer on February 28, 2024. The court found no genuine issue of material fact regarding the employer's stated reasons for termination.
+
+---
+
+### Human: Write legal analysis in Judge Foley's style, integrating quotations seamlessly with clear attribution
+### Assistant: [7] The Fourth Amendment protects against unreasonable searches and seizures. To justify an investigatory stop, an officer must have reasonable suspicion that criminal activity is afoot. Terry v. Ohio, 392 U.S. 1, 30 (1968).
+
+[8] Here, Officer Johnson testified that he observed the vehicle "weaving within its lane on three separate occasions over approximately one mile." He further stated that the vehicle was traveling "significantly below the posted speed limit at 2:00 a.m." While either factor alone might not establish reasonable suspicion, the combination of unusual driving patterns at an unusual hour provides sufficient justification for the stop.
+
+[9] Defendant argues that minor lane deviations without crossing lane markings cannot support reasonable suspicion. However, Indiana courts have consistently held that a vehicle need not cross lane boundaries to justify a traffic stop. The totality of circumstances here supports the officer's decision to initiate the stop.
+
+---
+
+### Human: Write a Facts section in Judge Foley's style showing how to paraphrase rather than over-quote
+### Assistant: Facts and Procedural History
+
+[3] During contract negotiations in 2023, the parties discussed warranty terms at length. The seller maintained that all products would be sold in as-is condition, while the buyer sought additional warranties. After several rounds of negotiations, they reached an agreement.
+
+[4] The written contract included a provision stating that the seller disclaimed all warranties except those specifically set forth in the document. However, the parties also signed a separate service agreement providing coverage for certain defects.
+
+[5] When problems arose with the delivered products, the buyer contended that the service agreement created an express warranty that overrode the disclaimer. The seller argued that the disclaimer was clear and unambiguous.
+
+---
+
+### Human: Write legal analysis in Judge Foley's style with proper Bluebook-compliant Indiana citations
+### Assistant: [6] Indiana law requires clear and convincing evidence to support an involuntary commitment. Ind. Code § 12-26-2-5(e). The standard for "gravely disabled" requires a showing that the individual is unable to provide for essential human needs or has substantial impairment of judgment that results in inability to function independently. Id. § 12-26-7-2-96.
+
+[7] Our Court has consistently applied this standard strictly. See Johnson v. State, 945 N.E.2d 234, 238 (Ind. Ct. App. 2011); Miller v. Community Health Network, 952 N.E.3d 445, 449 (Ind. Ct. App. 2012). The evidence must establish not merely eccentric behavior, but actual inability to care for oneself. Miller, 952 N.E.3d at 451.
+
+[8] Here, the psychiatric testimony established that appellant was found living outdoors in freezing temperatures without adequate shelter or clothing. Dr. Smith testified that appellant's delusions prevented her from recognizing the danger of her situation. This evidence satisfies the statutory standard.
+
+---
+
+### Human: Write legal analysis in Judge Foley's style demonstrating efficient use of short citations and pinpoint citations
+### Assistant: [9] The trial court's summary judgment analysis must be reviewed de novo. Hughley v. State, 15 N.E.3d 1000, 1003 (Ind. 2014). Summary judgment is appropriate only when there is no genuine issue of material fact and the moving party is entitled to judgment as a matter of law. Id.
+
+[10] To survive summary judgment, the non-moving party must present evidence creating a genuine issue for trial. Id. at 1004. The evidence must be viewed in the light most favorable to the non-moving party. Reed v. Reid, 980 N.E.2d 277, 285 (Ind. 2012).
+
+[11] Applying these standards here, genuine issues of material fact exist regarding the defendant's knowledge of the hazardous condition. The plaintiff has designated evidence showing the spill existed for at least thirty minutes before the accident. Reed, 980 N.E.2d at 287. This evidence precludes summary judgment.
+
+---
+
+### Human: Write a Facts and Procedural History section in Judge Foley's style with strict chronological organization and appropriate temporal markers
+### Assistant: Facts and Procedural History
+
+[3] On January 15, 2024, plaintiff slipped and fell while shopping at defendant's grocery store. She immediately reported the incident to store management and sought medical attention at a nearby urgent care facility.
+
+[4] Three days later, on January 18, plaintiff's attorney sent a preservation notice to the store, requesting that all surveillance footage and incident reports be maintained. The store acknowledged receipt of the notice the following day.
+
+[5] On February 2, 2024, plaintiff filed her complaint alleging negligence and seeking damages for her injuries. Defendant answered on February 28, denying liability and asserting various affirmative defenses.
+
+[6] During discovery, defendant produced surveillance footage showing the incident. However, the store manager testified that the spill had been present for an unknown period before plaintiff's fall, and no employee had placed warning signs in the area.
+
+[7] Following the close of discovery, defendant moved for summary judgment on October 15, 2024. The trial court granted the motion on November 20, finding insufficient evidence of actual or constructive notice.
+
+---
+
+### Human: Write an introduction in Judge Foley's signature style with direct opening, clear procedural posture, and upfront conclusion
+### Assistant: [1] Defendant-Appellant Michael Thompson appeals his conviction for Level 4 felony burglary, arguing the trial court erred in denying his motion to suppress evidence obtained during a search of his residence. Thompson contends the search warrant was not supported by probable cause and that the good faith exception does not apply. For the following reasons, we affirm.
+
+---
+
+### Human: Write an introduction in Judge Foley's style showing procedural clarity for an interlocutory appeal
+### Assistant: [1] Plaintiff-Appellant Sarah Martinez appeals the trial court's grant of defendant's motion to dismiss her premises liability claim. The trial court certified its order for interlocutory appeal under Appellate Rule 14(B), and we accepted jurisdiction. Martinez contends the trial court erred in finding she failed to state a claim upon which relief can be granted. We reverse and remand.
+
+---
+
+### Human: Write a conclusion in Judge Foley's signature style with clear disposition and brief reasoning summary
+### Assistant: [12] For the foregoing reasons, we conclude the trial court did not abuse its discretion in admitting the challenged evidence. The defendant has failed to establish that the evidence was more prejudicial than probative under Evidence Rule 403.
+
+[13] Accordingly, we affirm the defendant's conviction.
+
+Bradford, J., and Bailey, J., concur.
+
+---
+
+### Human: Write Facts and Procedural History in Judge Foley's style demonstrating Appellate Rule 22 compliance with clear party identification and jurisdictional basis
+### Assistant: Facts and Procedural History
+
+[3] This appeal arises from a contract dispute between Plaintiff-Appellant ABC Construction Company ("ABC") and Defendant-Appellee City of Indianapolis ("City"). The parties entered into a construction contract in March 2023 for renovation of a municipal building.
+
+[4] Disputes arose regarding change orders and delay claims during the project. ABC filed suit in Marion Superior Court on September 15, 2023, seeking damages for breach of contract and quantum meruit. The City answered and filed counterclaims for delay damages and defective work.
+
+[5] Following discovery, the City moved for summary judgment on all of ABC's claims. The trial court heard oral argument on the motion and granted summary judgment for the City on February 14, 2024. The court found that ABC had failed to comply with contractual notice requirements for change orders.
+
+[6] ABC filed its notice of appeal on March 10, 2024. This Court has jurisdiction under Indiana Appellate Rule 5 as this appeal is from a final judgment disposing of all claims between all parties.
+
+---
+
+### Human: Explain the key characteristics of Judge Foley's judicial writing style
+### Assistant: Judge Foley's judicial writing style is characterized by:
+
+1. **Procedural Clarity**: Direct opening statements that immediately identify the parties, issues, and conclusion ("We affirm")
+
+2. **Economical Language**: Average sentence length of 17.4 words; avoids unnecessary legalese while maintaining formality
+
+3. **Chronological Organization**: Facts presented in strict chronological order with clear temporal markers
+
+4. **Strategic Citation Use**: Minimal citations in introductory sections for clean narrative flow; detailed citations reserved for legal analysis
+
+5. **Paraphrasing Preference**: Uses paraphrasing over direct quotation in case summaries and facts sections
+
+6. **Signature Patterns**: 
+   - "The State has charged..." / "[Defendant] appeals..." openings
+   - "For the following reasons" procedural clarity
+   - "Accordingly, we [affirm/reverse]" conclusions
+
+7. **Moderate Detail Level**: Includes all legally relevant facts without excessive elaboration
+
+8. **Professional Tone**: Authoritative but not pompous; respectful to all parties and courts
+
+---
+
+### Human: How should record citations be used in Judge Foley's style for Facts and Procedural History sections?
+### Assistant: In Judge Foley's style, record citations should be:
+
+1. **Strategic, Not Excessive**: Use citations to support key facts, not every detail
+   - Example: "App. Vol. 2, p. 45" for crucial testimony
+   - Example: "R. 23" for important court filings
+
+2. **Integrated Smoothly**: Citations should not disrupt narrative flow
+   - Good: "Officer Johnson observed signs of impairment and requested field sobriety tests. App. Vol. 2, p. 45."
+   - Avoid: "Officer Johnson (App. Vol. 2, p. 45) observed signs of impairment"
+
+3. **Proper Format**:
+   - Appendix: "App. Vol. [#], p. [#]"
+   - Record: "R. [#]" 
+   - Transcript: "Tr. Vol. [#], p. [#]-[#]"
+
+4. **Essential Facts Focus**: Cite the record for disputed facts, key testimony, and procedural milestones
+
+5. **Clean Introductions**: Minimal citations in opening paragraphs to maintain readability
+
+---
+
+### Human: Demonstrate proper Bluebook citation format in Judge Foley's style
+### Assistant: Bluebook-compliant citations in Judge Foley's style:
+
+**Indiana Cases:**
+- Full citation: Johnson v. State, 945 N.E.2d 234, 238 (Ind. Ct. App. 2011)
+- With pinpoint: Miller v. Community Health Network, 952 N.E.3d 445, 449 (Ind. Ct. App. 2012)
+- Short citation: Id. at 451 / Miller, 952 N.E.3d at 451
+
+**Indiana Statutes:**
+- Ind. Code § 12-26-2-5(e)
+- Short form: Id. § 12-26-7-2-96
+
+**Indiana Rules:**
+- Ind. R. Civ. P. 56(C)
+- Ind. Appellate Rule 14(B)
+
+**Federal Cases:**
+- Terry v. Ohio, 392 U.S. 1, 30 (1968)
+
+**Efficient Short Citations:**
+- Use "Id." when referring to immediately preceding authority
+- Use "supra" sparingly, prefer short case names
+- Include pinpoint citations for specific propositions
