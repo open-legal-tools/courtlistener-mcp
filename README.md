@@ -1,69 +1,148 @@
-# Claude Meets CourtListener
+# CourtListener MCP Integration
 
-> AI-powered legal research and judicial opinion generation system
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-blue)](https://modelcontextprotocol.io/)
+
+> AI-powered legal research using CourtListener API with Model Context Protocol (MCP) integration for Claude
 
 ## Project Overview
 
-**Phase 1 Complete ✅** - An AI system that writes judicial opinions in the style of specific Indiana judges, particularly Judge Foley from the Indiana Court of Appeals.
+A comprehensive legal research tool that combines:
+- **MCP Server**: Enables Claude to conduct legal research via CourtListener API
+- **Judicial Writing Analysis**: AI model training for judge-specific opinion generation
+- **Citation Verification**: Bluebook citation validation and formatting
 
-**Originally planned:** Claude integration with MCP features for legal research on CourtListener  
-**Successfully delivered:** Comprehensive training data for AI model fine-tuning to generate judge-specific judicial opinions
+## 🚀 Features
 
-## Current Status
-**Phase 1 Complete ✅** - Training data collection and style analysis  
-**Phase 2 Ready 🔄** - Model training in Google Colab
+### MCP Integration (In Development)
+- **Case Law Search**: Full-text search across millions of court opinions
+- **Citation Verification**: Validate case citations and Bluebook formatting
+- **Docket Access**: Retrieve detailed docket information
+- **Smart Filtering**: Filter by jurisdiction, date, and precedential status
+- **Natural Language**: Claude interprets natural language legal queries
 
-## What We've Built
+### Judicial Writing Analysis (Complete ✅)
+- **Judge Style Profiles**: Analyze individual judicial writing patterns
+- **Training Data Generation**: Create AI training datasets from real opinions
+- **Citation Pattern Analysis**: Extract citation integration styles
+- **Bluebook Compliance**: Ensure proper legal citation formatting
 
-### 📚 **Training Dataset**
-- **26 comprehensive training examples** ready for Google Colab
-- **12 authentic Judge Foley opinions** from 2020-2025
-- **Style-specific examples** covering citation patterns, quotation integration, and procedural writing
+## 📁 Repository Structure
 
-### 🎯 **Judge Foley Style Captured**
-- **Direct introductions** with clear case statements
-- **Chronological fact organization** with appropriate detail
-- **Strategic citation placement** following Bluebook standards
-- **Professional judicial tone** with procedural clarity
+```
+courtlistener-mcp/
+├── mcp-server/           # MCP server implementation
+│   ├── index.js          # Main server entry point
+│   └── tools/            # CourtListener API tools
+├── judge-analysis/       # Judicial writing analysis
+│   ├── comprehensive_foley_training.txt
+│   └── style-analyzer.js
+├── docs/                 # Documentation
+└── examples/             # Usage examples
+```
 
-### 🛠️ **Tools Created**
-- **Opinion collector** - Extracts judge-specific writings from CourtListener
-- **Style analyzer** - Identifies writing patterns and characteristics  
-- **Training generator** - Creates targeted examples for model learning
+## 🛠️ Installation
 
-## Files Ready for Use
+```bash
+# Clone the repository
+git clone https://github.com/open-legal-tools/courtlistener-mcp.git
+cd courtlistener-mcp
 
-### **Training Data**
-- `comprehensive_foley_training.txt` - **Import this into Google Colab**
-- `comprehensive_foley_training.py` - Python format training data
+# Install dependencies
+npm install
 
-### **Documentation**
-- `PROJECT_STATUS.md` - Detailed project status and achievements
-- Complete style guide for Judge Foley's writing patterns
+# Configure API credentials
+cp .env.example .env
+# Edit .env with your CourtListener API key
+```
 
-## Quick Start
+## 📖 Usage
 
-1. **Open Google Colab** (free tier recommended for cost control)
-2. **Upload** `comprehensive_foley_training.txt`
-3. **Run training** using the provided examples
-4. **Test generated text** against authentic judicial writing
+### MCP Server with Claude Desktop
 
-## Key Innovation
+1. Add to your Claude desktop configuration:
 
-This is the first systematic analysis of individual judicial writing styles using AI, focusing on:
-- **Citation integration patterns** (App. Vol., R., Tr. citations)
-- **Quotation usage and attribution** (seamless integration, paraphrasing preference)
-- **Procedural clarity requirements** (Appellate Rule 22 compliance)
-- **Bluebook citation standards** (Indiana case and statute formats)
+```json
+{
+  "mcpServers": {
+    "courtlistener": {
+      "command": "node",
+      "args": ["path/to/courtlistener-mcp/mcp-server/index.js"],
+      "env": {
+        "COURTLISTENER_API_KEY": "your-api-key"
+      }
+    }
+  }
+}
+```
 
-The training data teaches the model not just what to write, but how specific judges write, including their signature patterns and professional preferences.
+2. Use natural language queries:
+   - "Find recent Supreme Court cases about AI and copyright"
+   - "Check if Miranda v. Arizona is still good law"
+   - "Show me 9th Circuit cases on qualified immunity from 2023"
 
-## Technical Specifications
+### Judge Writing Analysis
 
-**Tech Stack Delivered:** Node.js, CourtListener API integration, Python training data  
-**Target Audience:** Appellate judicial clerks and legal writing professionals  
-**Integration:** Ready for Google Colab model training  
+```bash
+# Analyze a judge's writing style
+node judge-analysis/style-analyzer.js --judge "Foley" --court "ind"
 
----
+# Generate training data
+node judge-analysis/training-generator.js --input opinions/ --output training.txt
+```
 
-**Ready to train your AI judge! 🏛️⚖️**
+## 🔧 API Reference
+
+### Available MCP Tools
+
+#### `search_opinions`
+```typescript
+{
+  query: string;          // Search query
+  court?: string;         // Court identifier
+  after?: string;         // Date after (YYYY-MM-DD)
+  before?: string;        // Date before (YYYY-MM-DD)
+  precedential?: boolean; // Only precedential opinions
+}
+```
+
+#### `verify_citation`
+```typescript
+{
+  citation: string;  // Full citation string
+}
+```
+
+#### `get_citing_cases`
+```typescript
+{
+  id: string;     // Opinion ID
+  limit?: number; // Maximum results
+}
+```
+
+## 🎯 Current Status
+
+- **Phase 1 Complete ✅**: Judge writing style analysis and training data
+- **Phase 2 In Progress 🔄**: MCP server implementation
+- **Phase 3 Planned 📋**: Advanced citation network analysis
+
+## 🤝 Contributing
+
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+## 🙏 Acknowledgments
+
+- [CourtListener](https://www.courtlistener.com/) by the Free Law Project
+- [Model Context Protocol](https://modelcontextprotocol.io/) by Anthropic
+- Indiana Court of Appeals for publicly available opinions
+
+## 📞 Support
+
+- Issues: [GitHub Issues](https://github.com/open-legal-tools/courtlistener-mcp/issues)
+- CourtListener API: [Documentation](https://www.courtlistener.com/api/)
+- MCP Docs: [Anthropic MCP Guide](https://support.anthropic.com/en/articles/11503834-building-custom-integrations-via-remote-mcp-servers)
